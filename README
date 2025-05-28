@@ -1,0 +1,11 @@
+Utility for elf to flash binary converter
+
+Environment build
+
+	cd runner
+	make sdk.build INSTALL_DIR=./build
+
+
+Usage
+./create_image.sh <inputfile.elf>
+
