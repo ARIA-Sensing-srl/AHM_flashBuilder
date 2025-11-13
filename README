@@ -1,6 +1,6 @@
 Utility for elf to flash binary converter
 
-Environment build
+Environment build (Linux or MSYS64)
 
 	cd runner
 	make sdk.build INSTALL_DIR=./build
@@ -9,3 +9,5 @@ Environment build
 Usage
 ./create_image.sh <inputfile.elf>
 
+Windows
+./create_image.bat <inputfile.elf>
